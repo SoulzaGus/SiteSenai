@@ -1,0 +1,115 @@
+/* Arquivo style.css */
+@font-face{
+  font-family: Univers, sans-serif;
+  src:url(/fonts/UniversBlack.ttf)
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 36px;
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.subtitulo {
+  font-size: 24px;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.curso {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.imagem-curso {
+  flex: 1;
+  max-width: 400px;
+}
+
+.descricao-curso {
+  flex: 1;
+  padding: 20px;
+  background-color: #f3f3f3;
+}
+
+.descricao-curso h2 {
+  font-size: 24px;
+  color: #1d3666;
+  margin-top: 0;
+}
+
+.descricao-curso p {
+  font-size: 20px;
+  color: #333;
+}
+
+.destaque {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.botao {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #1d3666;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.botao:hover {
+  background-color: #1d3666;
+}
+
+.footer {
+  background-color: #1d3666;
+  padding:15px;
+  margin-top: 30px;
+
+}
+
+.footer p {
+  font-size: 16px;
+  color: white;
+  margin: 0;
+}
+
+.endereco, .contato {
+  flex: 1;
+  text-align: center;
+}
+
+.redes-sociais {
+  flex: 1;
+  text-align: right;
+  
+
+}
+
+.redes-sociais a {
+  margin-left: 10px;
+
+}
+
+.direitos-autorais {
+  text-align: center;
+  margin-top: 10px;
+}
+nav{
+	background-color: #1d3666;
+	border-radius: 0px;
+	font-family: arial;
+	color: white;
+	width: 450px ;
+	height: 40px;
+	text-align: center, middle;
+	
+}

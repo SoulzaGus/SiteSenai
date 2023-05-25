@@ -1,0 +1,65 @@
+/* Reset de margens e preenchimentos */
+@font-face{
+	font-family: Univers;
+	
+ 
+	src:url(/fonts/UniversBlack.ttf)
+}
+	
+body, ul {
+	margin-left: 30px;
+	margin:0;
+	padding: 11px;
+	flex-wrap: wrap;
+}
+body {
+  font-family: Univers, sans-serif;
+  /* specify fallback font families here in case Univers is not available */
+}
+
+/* Estilo da barra de navegação */
+.navbar {
+	background-color: #fff; /* Cor de fundo azul */
+	padding: 0px; /* Espaçamento interno aumentado */
+	width: 100%; /* Largura definida como 100% */
+}
+
+.navbar-nav {
+	display: flex; /* Exibe os itens em uma linha */
+	justify-content: center; /* Centraliza os itens horizontalmente */
+	align-items: center; /* Centraliza os itens verticalmente */
+}
+
+.nav-item {
+	list-style: none; /* Remove as bolinhas das listas */
+	margin-right: 40px; /* Espaçamento entre os itens aumentado */
+}
+
+.nav-link {
+	font-family: Univers black;
+	color: #1d3666; /* Cor do texto branco */
+	text-decoration: none; /* Remove a decoração de link */
+	padding: 10px 20px; /* Espaçamento interno dos itens aumentado */
+	transition: background-color 0.3s ease; /* Transição suave do hover */
+}
+
+/* Efeito de hover */
+.nav-link:hover {
+	background-color: #1d3666; /* Cor de fundo branca */
+	color: #fff; /* Cor do texto azul */
+}
+
+/* Estiliza a label da caixa de seleção */
+.nav-link::before {
+	content: "";
+	display: none;
+	width: 10px;
+	height: 10px;
+	margin-right: 5px; /* Espaçamento entre o ícone e o texto */
+	background-color: #fff; /* Cor de fundo branca */
+	border: 2px solid #1d3666; /* Borda azul */
+	vertical-align: middle; /* Alinha verticalmente ao meio */
+	transition: transform 0.3s ease; /* Transição suave da animação */
+}
+
+/* Efeito de seleção (removido) */
